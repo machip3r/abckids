@@ -1,0 +1,200 @@
+body{
+	background-image:url(img/md.jpg);
+	background-size:cover;
+	position:absolute;
+	z-index:1;
+	height:100%;
+	width:device-width;
+	align-items:middle;
+}
+
+#container{
+	background-color:white;
+	margin-top:50px;
+	width:90%;
+	border-radius:7%;
+}
+
+#word-container{
+	background-color:white;
+	margin-top:10px;
+	width:98%;
+	border-radius:7%;
+}
+
+#container-abc{
+	background-color:white;
+	width:90%;
+	border-radius:7%;
+}
+
+.letters{
+	display:inline-block;
+	vertical-align:middle;
+	text-align:center;
+	width:100px; 
+	height:100px;
+}
+
+#box-login{
+	background-color:white;
+	width:110%;
+	height:30%;
+	border-radius:8%;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+#box-register{
+	margin-top:10px;
+	margin-left:3.5px;
+	background-color:white;
+	width:160%;
+	height:30%;
+	border-radius:8%;
+}
+
+#container-score{
+	background-color:white;
+	margin-top:10%;
+	width:320px;
+	height:400px;
+	margin-left:23px;
+	border-radius:7%;
+}
+
+#container-exit{
+	background-color:white;
+	margin-top:13%;
+	width:90%;
+	border-radius:7%;
+}
+
+#abc{
+	width:100px;
+	height:100px;
+	border-radius:30%;
+}
+
+#btnW{
+	width:40%;
+	height:60px;
+}
+
+#wordinput{
+	width:65%;
+	text-align:center;
+}
+
+#listo{
+	width:40%;
+	height:10%;
+}
+
+#nota{
+	width:80%;
+}
+
+#new{
+	width:70%;
+	font-size:15px
+}
+
+#exit-retry{
+	width:40%;
+	font-size:20px;
+}
+
+#retry{
+	width:70%;
+	font-size:20px;
+}
+
+#register{
+	width:30%;
+}
+
+#disg{
+	width:95%;
+	display:none;
+	text-align:center;
+}
+
+#later{
+	width:95%;
+	text-align:center;
+}
+
+#exit{
+	width:40%;
+}
+
+#next-word{
+	width:70%;
+}
+
+#answer{
+	font-size:30px;
+}
+
+#test{
+	font-size:10px;
+}
+
+@media screen and (min-width:1300px){
+	#box-login{
+		width:110%;
+		height:400px;
+		margin-left:330px;
+	}
+
+	#logintext{
+		margin-top:60px;
+	}
+
+	#box-register{
+		margin-left:290px;
+		width:160%;
+		height:430px;
+	}
+
+	#register{
+		width:60%;
+		height:50px;
+	}
+
+	#container-welcome{
+		margin-left:370px;
+	}
+
+	#word-container{
+		margin-left:280px;
+		margin-top:20px;
+	}
+
+	#listo{
+		width:80%;
+		height:50px;
+	}
+
+	#volvere{
+		width:60%;
+	}
+
+	#container-score{
+		margin-top:100px;
+		margin-left:520px;
+	}
+
+	#next-word{
+		margin-top:50px;
+	}
+
+	#retry{
+		margin-top:20px;
+	}
+
+	#container-exit{
+		margin-left:260px;
+	}
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1">
+	<link rel='stylesheet' type='text/css' href='assets/css/estilos.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/cosmo.css'>
+	<title>Ingresa a ABCKids</title>
+</head>
+<body class="body-login">
+	<center>
+		<div id="general-login">
+			<div id="box-login">
+				<br>
+				<h3 id="logintext">Bienvenido a <b><font color="#86B950">A</font><font color="#6CAFF3">B</font><font color="orange">C</font>Kids</h3></b>
+				<h5>Accede con tu usuario y contraseña</h5>
+				<form action="getlogin.php" method="POST">
+				<input type="text" class="form-control" id="user-login" name="user" placeholder="Usuario" style="width:85%" align="center" autocomplete="off" autofocus required>
+				<br>
+				<input type="password" class="form-control <?php echo $invalid; ?>" id="password-login" name="password" placeholder="Contraseña" style="width:85%" align="center" required>
+				<br>
+				<button type="submit" class="btn btn-outline-success" name="boton" value="i" style="width:30%">Ingresar</button>
+				</form>
+				<a href="view/register.html"><small class="text-muted" style="text-align:left">¿No tienes cuenta? Regístrate aquí</small></a>
+				<br>
+				<br>
+			</div>
+		</div>
+	</center>
+</body>
+</html>
